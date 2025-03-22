@@ -18,7 +18,7 @@ jobs:
 
     - name: Install dependencies
       run: | 
-        cd api_yamdb/
+        cd api_mainmdb/
         python -m pip install --upgrade pip
         pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
         pip install -r requirements.txt 
@@ -46,9 +46,9 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2 
         with:
-          context: ./api_yamdb
+          context: ./api_mainmdb
           push: true
-          tags: jonmakko/api_yamdb:v4.23.2022
+          tags: jonmakko/api_mainmdb:v4.23.2022
 
   deploy:
     runs-on: ubuntu-latest
