@@ -1,6 +1,6 @@
-# Учебный проект "YaMDb API" ![example workflow](https://github.com/Jon-Makkonahi/mainmdb_final/actions/workflows/mainmdb_workflow.yml/badge.svg)
+# Учебный проект "MainMDb API" ![example workflow](https://github.com/Jon-Makkonahi/mainmdb_final/actions/workflows/mainmdb_workflow.yml/badge.svg)
 
-Проект YaMDb позволяет добавлять новых пользователей,
+Проект MainMDb позволяет добавлять новых пользователей,
 собирает отзывы пользователей на различные произведения.
 
 ### Авторы:
