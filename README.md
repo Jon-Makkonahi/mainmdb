@@ -16,7 +16,7 @@
 
 ```bash
 git clone git@github.com:Jon-Makkonahi/mainmdb_final.git
-cd api_yambd
+cd api_mainmdb
 ```
 
 Cоздать и активировать виртуальное окружение:
